@@ -1,0 +1,33 @@
+[project]
+name = "pf-connectivity"
+version = "0.1.0"
+description = ''
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Casey Schneider-Mizell", email = "caseysm@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "caveclient>=7.3.1",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "numpy>=1.26.4",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+    "standard-transform>=1.4.0",
+    "tqdm>=4.67.1",
+]
+
